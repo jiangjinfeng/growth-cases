@@ -4,10 +4,9 @@
 
 ## 怎么读
 
-- 下载或克隆仓库后，用 Chrome 或 Safari 打开 [增长案例集.html](增长案例集.html)，目录可点击。
-- [增长案例集.md](增长案例集.md) 是 Markdown 源文件，方便继续编辑。
+在 GitHub 上打开 [增长案例集.md](增长案例集.md)，目录可点击。
 
-> GitHub 的文件页不会直接渲染 HTML；请下载/克隆到本地后用浏览器打开。
+> ZCode 的内置 Markdown 预览不支持标题锚点；在 GitHub、VS Code、Typora 等支持标题锚点的查看器里可以直接跳转。
 
 ## 已收录
 
