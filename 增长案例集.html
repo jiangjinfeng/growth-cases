@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>增长案例集</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --paper: #ffffff;
+    --text: #1f2328;
+    --muted: #667085;
+    --accent: #0f766e;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 24px;
+    background: rgba(251, 250, 247, 0.92);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .topbar a { color: var(--accent); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 120px;
+  }
+  h1 {
+    font-size: 2.15rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin: 0.4em 0 0.6em;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    margin: 2.4em 0 0.8em;
+    scroll-margin-top: 56px;
+  }
+  h2:not(:first-of-type) {
+    border-top: 1px solid var(--border);
+    padding-top: 1.6em;
+  }
+  h3 {
+    font-size: 1.12rem;
+    margin: 1.8em 0 0.5em;
+    scroll-margin-top: 56px;
+  }
+  p { margin: 0.85em 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { font-weight: 650; }
+  ul, ol { padding-left: 1.5em; }
+  li { margin: 0.35em 0; }
+  li > ul, li > ol { margin: 0.35em 0; }
+  blockquote {
+    margin: 1.2em 0;
+    padding: 0.9em 1.1em;
+    background: var(--paper);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    color: var(--muted);
+  }
+  blockquote p { margin: 0.3em 0; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.4em 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2em 0;
+    font-size: 0.94em;
+    background: var(--paper);
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6em 0.75em;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f3f4f6; font-weight: 650; }
+  code {
+    background: #f3f4f6;
+    padding: 0.15em 0.35em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  pre {
+    background: #111827;
+    color: #f9fafb;
+    padding: 1em 1.1em;
+    border-radius: 8px;
+    overflow-x: auto;
+    line-height: 1.55;
+  }
+  pre code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: 0.9em;
+  }
+  #toc + ol {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1em 1.4em 1.1em 2.8em;
+    margin: 1em 0 2em;
+  }
+  #toc + ol li { margin: 0.45em 0; }
+  .backtop {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 20;
+    background: var(--accent);
+    color: #fff;
+    padding: 9px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    box-shadow: 0 6px 18px rgba(15, 118, 110, 0.28);
+  }
+  .backtop:hover { text-decoration: none; opacity: 0.92; }
+  @media (max-width: 640px) {
+    .topbar { padding: 9px 16px; }
+    main { padding: 28px 16px 96px; }
+    h1 { font-size: 1.7rem; }
+    h2 { font-size: 1.3rem; }
+    table { font-size: 0.88em; }
+    th, td { padding: 0.5em 0.55em; }
+  }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <span>增长案例集 · HTML 版 · 目录可点击</span>
+  <a href="增长案例集.md">Markdown 源文件</a>
+</div>
+<main>
+<h1>增长案例集</h1>
+<blockquote>
+<p>记录增长案例的完整经过：背景、做了什么、用了平台什么规则、增长效果。<br>不做分类和评价，先攒素材。<br>更新：2026-10-25</p>
+</blockquote>
+<h2 id="toc">目录</h2>
+<ol>
+<li><a href="#case-1">HongKongDoll：Pornhub 下架重传，3 个月冲到素人全球第一</a></li>
+<li><a href="#case-2">HongKongDoll：X/Twitter 的三段式流量操盘</a></li>
+<li><a href="#case-3">埃及创作者：YouTube 假集锦抢搜索空窗</a></li>
+<li><a href="#case-4">YouTube：播放量改成“第一帧”</a></li>
+<li><a href="#case-5">Treg / SuperDesign：用“01”前缀抢 Codex 插件市场第一</a></li>
+<li><a href="#todo">待补充</a></li>
+<li><a href="#template">新增案例模板</a></li>
+<li><a href="#sources">来源</a></li>
+</ol>
+<hr>
+<h2 id="case-1">1. HongKongDoll：Pornhub 下架重传</h2>
+<h3>1.1 背景</h3>
+<p>2020 年 12 月，《纽约时报》报道 Pornhub 存在未成年及非自愿内容。随后 Visa、Mastercard 切断支付，P 站大规模下架未验证视频，并重建上传与审核系统。所有视频要重新验证，大量视频经历“下架 → 审核 → 重新上线”。</p>
+<p>2021 年初，HongKongDoll（玩偶姐姐）还是刚入行的新人。成人内容平台流量集中在首页推荐，没有推荐就没有播放，也没有 OnlyFans 订阅。</p>
+<h3>1.2 他怎么发现漏洞</h3>
+<ul>
+<li>用 Google Sheet 建了一张表，每天记录每个视频的播放量、点赞、互动率。</li>
+<li>观察到：被审核重新上线的视频，会在短时间内获得一波异常推荐流量。</li>
+<li>连续观察几天，确认不是偶然。</li>
+<li>推断：视频下架再上架时，系统会重新计算“上架时间权重”，但保留原来的播放量和点赞量。</li>
+<li>用一个已有百万播放的视频验证：重新上架后，算法看到的是“一个刚发布的新视频，已经有了 100 万播放、几万点赞”，于是判断这是爆款，给首页推荐。</li>
+</ul>
+<h3>1.3 具体操作</h3>
+<ol>
+<li>选一个已经有百万播放、互动数据好的视频。</li>
+<li>下架。</li>
+<li>重新上架。</li>
+<li>系统给它新的“发布时间”，但保留旧的播放和点赞。</li>
+<li>算法把它当成“刚发布就爆发”的新视频，给最高冷启动权重。</li>
+<li>首页推荐带来真实流量，播放和互动继续涨。</li>
+<li>窗口期内重复操作，形成循环。</li>
+</ol>
+<h3>1.4 用了平台什么规则</h3>
+<ul>
+<li>推荐系统的冷启动打分：新鲜度（发布时间）+ 早期互动率（播放、点赞、评论）。</li>
+<li>正常情况下，这两个信号同步增长；重新上架把“老视频的互动存量”嫁接到“新视频的时间戳”上，制造出不可能的高早期互动率。</li>
+<li>平台把“上架时间”当作新鲜度信号，但没有同步重置互动数据，这是漏洞的核心。</li>
+<li>关键前提：必须先有一个百万播放的视频。漏洞放大的是已经存在的互动存量；没有存量，重新上架也不会被当成爆款。</li>
+</ul>
+<h3>1.5 窗口怎么关闭</h3>
+<ul>
+<li>平台修复了“重新上架刷新时间权重”的逻辑。</li>
+<li>审核流程稳定后，“下架再上线”不再是特殊状态。</li>
+<li>本人总结：bug 只有三个月，没指望永久套利；窗口关闭后转向 X。</li>
+</ul>
+<h3>1.6 增长效果</h3>
+<ul>
+<li>窗口期约 3 个月。</li>
+<li>冲到 P 站素人全球第一。</li>
+<li>所有视频被挂首页，平均播放量断崖式领先第二名。</li>
+<li>P 站流量导到 OnlyFans，付费订阅几周增长约 40 倍。</li>
+<li>由此产生的月收入缓慢衰减，持续 3 年以上。</li>
+<li>本人原话：如果没有这个 bug，今天可能不会出现在你的视野里。</li>
+<li>本人把这次操作称为“一次推荐算法攻击”，并比喻为“发现一台吐钱但不扣余额的 ATM”。</li>
+</ul>
+<blockquote>
+<p>说明：以上为本人自述，P 站未确认；40 倍、3 年等数字无法独立核验。</p>
+</blockquote>
+<hr>
+<h2 id="case-2">2. HongKongDoll：X/Twitter 的三段式流量操盘</h2>
+<h3>2.1 第一阶段：敏感标签，流量困在圈内（2021）</h3>
+<ul>
+<li>P 站流量导到 X，主号快速过 100 万粉。</li>
+<li>但成人账号一旦被标记为敏感，推荐权重归零，内容不会出现在未关注者的 For You。</li>
+<li>只能靠成人账号之间互转，流量在圈内循环，很难破圈。</li>
+</ul>
+<h3>2.2 第二阶段：治理空窗，“黄推之夏”（2022）</h3>
+<ul>
+<li>2022 年马斯克收购 X，裁员、团队动荡，审核和推荐规则不稳定。</li>
+<li>用户打开“显示敏感内容”开关后，未关注的敏感内容可以进入 For You。</li>
+<li>当事人称之为“黄推之夏”。</li>
+<li>操作：半年高强度发布，抓住推荐松动的窗口。</li>
+<li>平台稳定后，限制恢复。</li>
+</ul>
+<h3>2.3 第三阶段：评论权重 + 矩阵号（2023）</h3>
+<ul>
+<li>2023 年 X 公开部分算法，互动权重高，尤其评论。</li>
+<li>操作：<ul>
+<li>主号发“干净”的内容，避免被标记。</li>
+<li>评论区引导“扣 1”“找番号”“每日大赛”，制造评论密度。</li>
+<li>用非敏感抽奖号发“扣 1 参与”，涨粉。</li>
+<li>把抽奖号流量导给主号。</li>
+</ul>
+</li>
+</ul>
+<h3>2.4 第四阶段：AI 审核，规则型玩法失效（2024）</h3>
+<ul>
+<li>X 上线 AI 内容识别和自动标注。</li>
+<li>靠关键词、谐音、格式漏洞的“越狱”基本结束。</li>
+<li>当事人总结：骗算法容易，猜 AI 难。</li>
+</ul>
+<h3>2.5 增长效果</h3>
+<ul>
+<li>2021 年：主号过 100 万粉。</li>
+<li>2022 年：主号从 100 万涨到 250 万。</li>
+<li>2023 年：抽奖号涨到近 100 万粉；主号年底到 300 万。</li>
+<li>2024 年：AI 标注上线后，靠规则漏洞的增长基本停止。</li>
+<li>整体路径：P 站流量 → OnlyFans 订阅 → X 粉丝 → 再导回付费/商业合作。</li>
+</ul>
+<blockquote>
+<p>说明：粉丝数为本人复盘自述，未独立核验。</p>
+</blockquote>
+<hr>
+<h2 id="case-3">3. 埃及创作者：YouTube 假集锦抢搜索空窗（2025）</h2>
+<h3>3.1 背景</h3>
+<p>2025 年 Club World Cup 期间，球迷在比赛前就开始搜“集锦”“比分”“梅西”。但比赛还没踢，真实集锦不存在。</p>
+<h3>3.2 具体操作</h3>
+<ul>
+<li>三名埃及游戏创作者，运营多个认证频道，几十万订阅。</li>
+<li>在比赛前 24–48 小时发布“假集锦”。</li>
+<li>用旧比赛素材、误导性解说、梅西“帽子戏法”等夸张标题、不可能比分（9–3、7–4）。</li>
+<li>视频结尾放几分钟游戏画面，伪装成游戏内容。</li>
+<li>赛后把标题改成真实比分，承接第二波搜索。</li>
+<li>热度过去后，剪掉假集锦，只留游戏画面，保住广告分成。</li>
+</ul>
+<h3>3.3 用了平台什么规则</h3>
+<ul>
+<li>搜索排序：标题、缩略图、频道权威度、点击率。</li>
+<li>推荐系统：新内容 + 高点击 → 更多推荐。</li>
+<li>认证频道提供信任背书。</li>
+<li>审核有滞后：等平台发现，流量已经吃完。</li>
+<li>变现规则：只要视频还有效、内容不违规，广告继续跑；所以他们赛后剪掉假片段，保留游戏画面。</li>
+</ul>
+<h3>3.4 增长效果</h3>
+<ul>
+<li>约 30 条视频，两周合计约 1400 万播放。</li>
+<li>单条曼城 vs 尤文假集锦，赛前超过 70 万播放，位列 YouTube 和 Google 视频搜索第一。</li>
+<li>频道挂了 Chase、B&amp;H、Grubhub、Spectrum 等广告，甚至包括真实世界杯门票广告。</li>
+<li>YouTube 在媒体询问后删除所有视频、终止频道；增长在封禁前已经完成。</li>
+</ul>
+<hr>
+<h2 id="case-4">4. YouTube：播放量改成“第一帧”（2026）</h2>
+<h3>4.1 规则变化</h3>
+<ul>
+<li>2026 年 8 月 24 日起，YouTube 所有格式从视频第一帧开始计播放。</li>
+<li>旧口径改名 engaged views：点击观看或看过最初几秒。</li>
+<li>悬停缩略图自动播放也算 view；只看缩略图不算。</li>
+<li>CTR、平均观看时长、留存仍以 engaged view 为锚；推荐逻辑不变。</li>
+<li>变现仍看 engaged view / 合格观看时长。</li>
+</ul>
+<h3>4.2 增长效果</h3>
+<ul>
+<li>公开播放数字会膨胀，但真实注意力没变。</li>
+<li>品牌方如果只看 view，会高估投放效果。</li>
+<li>创作者如果只看 view，会误判内容质量。</li>
+<li>第三方研究：约 60% 公开播放能成为 engaged view；首页/推荐自动播放转化约 20%，直接访问约 85%。</li>
+</ul>
+<hr>
+<h2 id="case-5">5. Treg / SuperDesign：用“01”前缀抢 Codex 插件市场第一</h2>
+<h3>5.1 背景</h3>
+<p>Treg 创始人 Jason Zhou 最早做的是 SuperDesign，一个给 Cursor 用的设计插件。周末项目，开源后拿到 6000+ GitHub stars，他因此辞职创业。</p>
+<p>后来模型的前端能力变强，用户转向 Codex 和 Claude，SuperDesign 这类设计 agent 被挤压，商业化也不清晰。团队转做自动化增长 agent（Coolant），也没跑通。最后，联合创始人 Shi Tianxin 给 Codex 插件市场做了一个插件，成了转折点。</p>
+<h3>5.2 他做了什么</h3>
+<ul>
+<li>当时 Codex 插件市场的列表按名称字母顺序排序。</li>
+<li>他把插件名从 “SuperDesign” 改成 “01 SuperDesign”。</li>
+<li>因为 “0” 排在字母前面，插件直接出现在列表最顶部。</li>
+<li>用户打开插件市场，第一眼看到的就是它。</li>
+<li>这个位置只维持了几天，平台后来改成了自己的排序规则；但先拿到的那波用户已经进来了。</li>
+</ul>
+<h3>5.3 用了平台什么规则</h3>
+<ul>
+<li>插件市场按字母排序，而不是按下载量、评分或编辑推荐。</li>
+<li>用户浏览列表是从上往下看的，第一名拿到不成比例的点击。</li>
+<li>改名成本极低，不需要改产品、不需要买量，只需要一个排序键。</li>
+<li>平台规则一改，位置就没了；这是一个很短的窗口。</li>
+</ul>
+<h3>5.4 增长效果</h3>
+<ul>
+<li>创始人的说法：Codex 插件上线后，“增长曲线突然变了，大量用户涌进来”，而且这批用户的流失率更低。</li>
+<li>在改名之前，SuperDesign 已经有 6000+ GitHub stars；插件市场给它增加了一个新的分发渠道。</li>
+<li>“01 SuperDesign” 的第一名位置只持续了几天，但创始人说，这个先发位置“给了他们自己的量”。</li>
+<li>团队后来把内部的数据/工具层做成 Treg（“给 agent 用的 OpenRouter”），按调用量收费；上线约三周后，收入是 SuperDesign 的几倍（具体数字未披露）。</li>
+</ul>
+<blockquote>
+<p>说明：以上来自创始人播客自述，用户数、收入等没有独立核验；“第一名只维持几天”是联合创始人 Shi Tianxin 的说法。</p>
+</blockquote>
+<h3>5.5 后续</h3>
+<ul>
+<li>平台改成自己的排序规则后，“01” 前缀失效。</li>
+<li>团队没有停留在改名技巧上，而是用这波用户转向 Treg。</li>
+<li>创始人的总结：开源和早期插件市场，是 AI 产品最低成本的获客渠道之一。</li>
+</ul>
+<hr>
+<h2 id="todo">6. 待补充</h2>
+<ul>
+<li>拼多多砍一刀</li>
+<li>瑞幸私域</li>
+<li>完美日记 KOC</li>
+<li>抖音切片/矩阵号</li>
+<li>小红书素人铺量</li>
+<li>Dropbox 邀请奖励</li>
+<li>PayPal 双边补贴</li>
+<li>Airbnb → Craigslist</li>
+<li>Tinder 校园地推</li>
+<li>Notion 模板生态</li>
+<li>Clubhouse 邀请码</li>
+<li>Quibi 失败案例</li>
+</ul>
+<hr>
+<h2 id="template">7. 新增案例模板</h2>
+<pre><code class="language-markdown">## 案例：名称
+
+### 背景
+（平台当时发生了什么，为什么会出现机会）
+
+### 他做了什么
+（按时间顺序，具体动作）
+
+### 用了平台什么规则
+（推荐、搜索、审核、变现、治理，具体到机制）
+
+### 增长效果
+（播放、排名、粉丝、收入、转化、持续时间；没有数字就写定性）
+
+### 后续
+（窗口怎么关闭，当事人怎么转）
+</code></pre>
+<hr>
+<h2 id="sources">8. 来源</h2>
+<h3>HongKongDoll / Pornhub / X</h3>
+<ul>
+<li><a href="https://x.com/MyHongKongDoll/status/1901286930148720815" target="_blank" rel="noopener">HongKongDoll 原始 X 帖（2025-03-16）</a></li>
+<li><a href="https://www.woshipm.com/share/6310250.html" target="_blank" rel="noopener">人人都是产品经理：拆解 HongKongDoll——P 站顶流的流量操盘</a></li>
+<li><a href="https://blockweeks.com/view/194105" target="_blank" rel="noopener">BlockWeeks：注意力经济，从 Pornhub 到推特，从色情内容到加密货币</a></li>
+<li><a href="https://news.cnyes.com/news/id/6280513" target="_blank" rel="noopener">巨亨网：hongkongdoll 的算法突围史</a></li>
+</ul>
+<h3>YouTube 假集锦</h3>
+<ul>
+<li><a href="https://www.theguardian.com/football/2025/jul/01/fake-club-world-cup-highlights-youtube-scam" target="_blank" rel="noopener">The Guardian / Indicator：The Club World Cup that wasn&#39;t — how fake highlights took over the internet（2025-07-01）</a></li>
+</ul>
+<h3>YouTube 播放量口径</h3>
+<ul>
+<li><a href="https://blog.youtube/inside-youtube/engaged-views-youtube-explained/" target="_blank" rel="noopener">YouTube 官方博客：What are &#39;Engaged&#39; Views on YouTube?</a></li>
+<li><a href="https://www.theverge.com/streaming/981105/youtube-video-view-counting-update" target="_blank" rel="noopener">The Verge：YouTube is changing how it counts views to give the numbers a boost</a></li>
+</ul>
+<h3>Treg / SuperDesign</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=RWwKjVXzeLk" target="_blank" rel="noopener">十字路口播客：新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg（YouTube）</a></li>
+<li><a href="https://finance.biggo.com/news/41e8fa59207733bf" target="_blank" rel="noopener">BigGo Finance：Treg Founder Jason Zhou — After Three Pivots in Nine Months</a></li>
+<li><a href="https://podcasts.apple.com/us/podcast/podcast/id1729552193/episodes" target="_blank" rel="noopener">Apple Podcasts：十字路口Crossing</a></li>
+</ul>
+
+</main>
+<a class="backtop" href="#toc">↑ 目录</a>
+</body>
+</html>
