@@ -15,6 +15,10 @@
 3. 埃及创作者：YouTube 假集锦抢搜索空窗
 4. YouTube：播放量改成“第一帧”
 5. Treg / SuperDesign：用“01”前缀抢 Codex 插件市场第一
+6. Cal AI：300+ 达人铺量，2 年做到 5000 万美元收入
+7. NovaSight：2700 个小达人，在 TikTok Shop 卖 AI 眼镜
+8. vivago.ai：押中宠物舞蹈，60 天 1121 万下载
+9. own.page：Product Hunt 上线，3 周 2021 个注册
 
 ## 说明
 
