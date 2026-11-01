@@ -8,6 +8,11 @@
 
 > ZCode 的内置 Markdown 预览不支持标题锚点；在 GitHub、VS Code、Typora 等支持标题锚点的查看器里可以直接跳转。
 
+## 收录标准
+
+- 只收：利用平台规则、排序、审核、搜索、命名、时间窗口等机制，低成本拿到增长的案例。
+- 不收：靠自家平台流量优势、大额广告/付费投放/佣金买量的案例。
+
 ## 已收录
 
 1. HongKongDoll：Pornhub 下架重传，3 个月冲到素人全球第一
@@ -15,13 +20,8 @@
 3. 埃及创作者：YouTube 假集锦抢搜索空窗
 4. YouTube：播放量改成“第一帧”
 5. Treg / SuperDesign：用“01”前缀抢 Codex 插件市场第一
-6. Cal AI：300+ 达人铺量，2 年做到 5000 万美元收入
-7. NovaSight：2700 个小达人，在 TikTok Shop 卖 AI 眼镜
-8. vivago.ai：押中宠物舞蹈，60 天 1121 万下载
-9. own.page：Product Hunt 上线，3 周 2021 个注册
-10. Meta Muse：40 天 1000 万美国下载，靠 Meta 全家桶和 39% 广告预算
-11. 红果短剧：免费短剧 + 抖音导流，DAU 破 2 亿
-12. FlickReels：一个月 14.7 万条广告素材，把短剧投成 800 万美元月内购
+6. vivago.ai：押中宠物舞蹈，60 天 1121 万下载
+7. own.page：Product Hunt 上线，3 周 2021 个注册
 
 ## 说明
 
